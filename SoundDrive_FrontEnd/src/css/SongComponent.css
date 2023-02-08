@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    padding-left: 10px;
+}
+
+.item > li{
+    padding: 11px;
+    padding-top: 17px;
+    padding-left: 29px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #ab81e0;
+    text-decoration: none;
+}
+
+.item > li:hover{
+    color: white;
+}
+
+.boxSong {
+    flex: 1;
+    background: #ab81e0;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+    width: 50%;
+}
+
+.selectButton {
+    padding: 7px;
+    color: #9e69df;
+    font-weight: bold;
+    background: white;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.DeleteSong {
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    background: rgb(235, 78, 78);
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+}

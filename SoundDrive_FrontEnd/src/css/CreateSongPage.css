@@ -1,0 +1,55 @@
+.songForm .songForm * {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.songForm {
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.songForm {
+    padding: 40px;
+    margin-top: 50px;
+    background: lightgray;
+}
+
+.createSong {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.createSongInput {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 7px;
+    border-color: gray;
+    transition: border-color 0.5s;
+    outline: none;
+}
+
+.createSongInput:focus {
+        border-color: #ab81e0;
+}
+
+.createSongButton {
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    background: #ab81e0;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.createSongButton:active {
+        background: #9e69df;
+}

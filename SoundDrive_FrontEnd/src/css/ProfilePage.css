@@ -1,0 +1,76 @@
+.profileContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.profileBox {
+    flex: 1;
+    background: #ab81e0;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+.profileBox {
+    align-self: center;
+}
+
+.profileItems {
+    font-size: 30px;
+    text-align: center;
+}
+
+.editButton {
+    margin-top: 10px;
+    padding: 7px;
+    color: #9e69df;
+    font-weight: bold;
+    background: white;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.logOutButton {
+    margin-top: 10px;
+    padding: 7px;
+    color: #fdfdfd;
+    font-weight: bold;
+    background: rgb(201, 79, 79);
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.ChangePassContainer{
+    margin-top: 10px;
+    width: 100%;
+    display:flex;
+    align-content: space-between;
+    align-items: center;
+}
+
+.editButtonPass {
+    padding: 7px;
+    color: #9e69df;
+    font-weight: bold;
+    background: white;
+    width: 40%;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.newPassValue {
+    font-weight: bold;
+    border-radius: 15px;
+    width: 40%;
+}

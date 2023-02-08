@@ -1,0 +1,33 @@
+.createPlaylist {
+    padding: 7px;
+    color: #9e69df;
+    font-weight: bold;
+    background: white;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.deletePlaylist {
+    padding: 7px;
+    color: #ffffff;
+    font-weight: bold;
+    background: rgb(235, 78, 78);
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.boxSong {
+    flex: 1;
+    background: #ab81e0;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 20px 20px;
+    width: 50%;
+}

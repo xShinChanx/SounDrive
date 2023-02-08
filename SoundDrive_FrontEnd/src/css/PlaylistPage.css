@@ -1,0 +1,44 @@
+.playlistContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 100em;
+}
+
+.boxPlaylist {
+    flex: 1;
+    background: #ab81e0;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+    width: 50%;
+}
+
+
+.selectButton {
+    padding: 7px;
+    color: #9e69df;
+    font-weight: bold;
+    background: white;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+.selectButton-f {
+    padding: 7px;
+    color: #9e69df;
+    font-weight: bold;
+    background: white;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
